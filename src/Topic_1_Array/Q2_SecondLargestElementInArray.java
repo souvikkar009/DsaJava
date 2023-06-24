@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q1_SecondLargestElementInArray {
+public class Q2_SecondLargestElementInArray {
     public static int secondLargestEle1(int[] arr){
         int[] temp = arr.clone();
         Arrays.sort(temp);
