@@ -20,17 +20,30 @@ public class Q1_SecondLargestElementInArray {
     }
     public static int secondLargestEle2(int[] arr){
         int largestEle = Integer.MIN_VALUE;
-        int n = arr.length;
-        for(int i = 0; i < n; i++) {
-            if(arr[i] > largestEle) largestEle = arr[i];
+        for (int j : arr) {
+            if (j > largestEle) largestEle = j;
         }
         int secondLargestEle = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++){
-            if(arr[i] > secondLargestEle && arr[i] != largestEle){
-                secondLargestEle = arr[i];
+        for (int j : arr) {
+            if (j > secondLargestEle && j != largestEle) {
+                secondLargestEle = j;
             }
         }
         return secondLargestEle;
+    }
+    public static int secondLargestEle3(int[] arr){
+        int largestEle = arr[0];
+        int secondLargest = Integer.MIN_VALUE;
+        int n = arr.length;
+        for(int i = 1; i < n; i++){
+            if(arr[i] > largestEle){
+                secondLargest = largestEle;
+                largestEle = arr[i];
+            } else if (arr[i] < largestEle && arr[i] > secondLargest) {
+                secondLargest = arr[i];
+            }
+        }
+        return secondLargest;
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -44,5 +57,6 @@ public class Q1_SecondLargestElementInArray {
         System.out.println("Array is : " + Arrays.toString(arr));
         System.out.println("Second Largest Element is : " + secondLargestEle1(arr));
         System.out.println("Second Largest Element is : " + secondLargestEle2(arr));
+        System.out.println("Second Largest Element is : " + secondLargestEle3(arr));
     }
 }
