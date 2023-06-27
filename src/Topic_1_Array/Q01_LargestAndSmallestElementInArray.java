@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q1_LargestAndSmallestElementInArray {
+public class Q01_LargestAndSmallestElementInArray {
     public static int maxEle1(int[] arr){
         int maxEle = arr[0];
         int n = arr.length;
