@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q12_LongestSubArrayOfSumK {
+public class Q12_LongestSubArrayOfSumKOnlyPos {
     // n^3 time complexity
     public static int subArraySize1(int[] arr, int k){
         int n = arr.length;
