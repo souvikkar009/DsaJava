@@ -1,4 +1,4 @@
-package Topic_1_Array;
+package Topic_1_Array.Easy;
 
 import java.util.Arrays;
 import java.util.HashSet;
