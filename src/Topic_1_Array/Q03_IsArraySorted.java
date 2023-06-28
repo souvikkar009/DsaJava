@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q3_IsArraySorted {
+public class Q03_IsArraySorted {
     public static boolean isSorted(int[] arr){
         int n = arr.length;
         int flag = 1;

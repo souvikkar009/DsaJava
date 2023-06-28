@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q7_MovesAllZerosToEnd {
+public class Q07_MovesAllZerosToEnd {
     public static void moveAllZeros1(int[] arr){
         int n = arr.length;
         int[] temp = new int[n];

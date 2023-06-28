@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q6_RotateArrayByKPosition {
+public class Q06_RotateArrayByKPosition {
     public static void leftRotateByK1(int[] arr, int k){
         int n = arr.length;
         if(k > n) return;

@@ -3,7 +3,7 @@ package Topic_1_Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q5_RotateArrayByOnePosition {
+public class Q05_RotateArrayByOnePosition {
     public static void leftRotateByOne(int[] arr){
         int temp = arr[0];
         int n = arr.length;

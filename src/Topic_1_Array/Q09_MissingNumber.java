@@ -2,7 +2,7 @@ package Topic_1_Array;
 
 import java.util.*;
 
-public class Q9_MissingNumber {
+public class Q09_MissingNumber {
     public static int missingNum1(int[] arr){
         int n = arr.length;
         int num = 0;

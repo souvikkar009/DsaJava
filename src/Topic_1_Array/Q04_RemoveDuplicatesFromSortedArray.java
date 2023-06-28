@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Q4_RemoveDuplicatesFromSortedArray {
+public class Q04_RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates1(int[] arr){
         Set<Integer> set = new HashSet<>();
         for (int ele : arr){

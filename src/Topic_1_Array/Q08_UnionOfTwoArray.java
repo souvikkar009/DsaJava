@@ -2,7 +2,7 @@ package Topic_1_Array;
 
 import java.util.*;
 
-public class Q8_UnionOfTwoArray {
+public class Q08_UnionOfTwoArray {
     public static ArrayList<Integer> union1(int[] arr1, int[] arr2){
         HashMap<Integer, Integer> map1 = new HashMap<>();
         int n1 = arr1.length, n2 = arr2.length;
