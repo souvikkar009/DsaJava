@@ -1,4 +1,4 @@
-package Topic_1_Array.Easy;
+package Topic01_Array.Easy;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Topic_1_Array.Medium;
+package Topic01_Array.Medium;
 
 import java.util.*;
 
